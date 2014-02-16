@@ -64,7 +64,8 @@
             // CSS Base
             $(this).css({
                 width: portfolio.width,
-                'max-height': portfolio.height,                
+                'max-height': portfolio.height,
+                'overflow-x': 'hidden',                
                 'white-space': 'nowrap'
             });
 
