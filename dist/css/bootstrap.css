@@ -5876,10 +5876,10 @@ td.visible-print {
 
 @media (max-width: 800px) {
   #gallery img {
-    width:100%;
-    height:auto;
+    width:100% !important;
+    height:auto !important;
   }
   #gallery{
-    height:auto;
+    height:auto !important;
   }
 }
