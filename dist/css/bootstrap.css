@@ -3660,7 +3660,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar {
   position: relative;
   min-height: 50px;
-  margin-bottom: 20px;  
+  margin: 10px 0;  
 }
 @media (min-width: 768px) {
   .navbar-header {
@@ -4027,8 +4027,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-default .navbar-link:hover {
   color: #333;
 }
-.navbar-inverse {
-  border-bottom: 1px dotted #E6E6E6  
+.navbar-inverse { 
 }
 .navbar-inverse .navbar-brand {
   color: #999;
