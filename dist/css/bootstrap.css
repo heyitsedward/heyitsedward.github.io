@@ -4046,8 +4046,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   color: #949494;
   text-transform: lowercase;
   font-family: 'always_togetherregular';
-  font-size: 2.5em;
-  margin-top: 10px; 
+  font-size: 2.5em;  
 }
 .lk-hover a::before,
 .lk-hover a::after {  
