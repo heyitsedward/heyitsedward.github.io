@@ -5873,4 +5873,4 @@ td.visible-print {
 .centernav{
   text-align: center;
 }
-
+#gallery { width: 3900px; position: absolute; top: 50%; margin-top: -150px; }
