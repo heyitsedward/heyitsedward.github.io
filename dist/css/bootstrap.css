@@ -5900,3 +5900,6 @@ td.visible-print {
 .carousel-demo-vertical li {
   margin:0 0 10px 0;
 }
+#carousel-demo1 {
+height: 500px !important;
+}
