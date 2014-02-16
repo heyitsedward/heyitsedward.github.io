@@ -5871,5 +5871,8 @@ td.visible-print {
 }
 /*# sourceMappingURL=bootstrap.css.map */
 .centernav{
+  position: fixed;
+  left:0;
+  right:0;
   text-align: center;
 }
