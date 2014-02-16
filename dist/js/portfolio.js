@@ -65,7 +65,8 @@
             $(this).css({
                 width: portfolio.width,
                 'max-height': portfolio.height,
-                'overflow-x': 'hidden',                
+                'overflow-x': 'scroll',
+                'overflow-y': 'hidden',
                 'white-space': 'nowrap'
             });
 
