@@ -5873,13 +5873,3 @@ td.visible-print {
 .centernav{
   text-align: center;
 }
-
-@media (max-width: 800px) {
-  #gallery img {
-    width:100% !important;
-    height:auto !important;
-  }
-  #gallery{
-    height:auto !important;
-  }
-}
