@@ -58,11 +58,7 @@
                 // 200px fixed height is good enough?
                 
                 // override gallery height
-                portfolio.height = 'auto';
-                $(this).find('img').css({
-                height: portfolio.height,
-                width: '100%'
-            });
+                portfolio.height = '200px';
             }
 
             // CSS Base
