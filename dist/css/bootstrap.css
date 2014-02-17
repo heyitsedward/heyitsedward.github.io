@@ -5879,7 +5879,7 @@ td.visible-print {
 #lk-gallery{
   width: 100%;
 height: 500px;
-margin: 10vh auto;
+margin: 20px auto;
 white-space: nowrap;
 }
 #lk-gallery img{
@@ -5888,5 +5888,10 @@ white-space: nowrap;
 @media (max-height: 717px) {
   body {
     overflow-y: hidden;
+  }
+}
+@media (max-height: 600px) {
+ #lk-gallery img{
+  height:400px;
   }
 }
