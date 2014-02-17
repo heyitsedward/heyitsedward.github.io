@@ -5876,30 +5876,3 @@ td.visible-print {
   right:0;
   text-align: center;
 }
-.carousel-demo {
-  width:560px;
-}
-.carousel-demo-vertical {
-  height:260px;
-  width:135px;
-}
-.carousel-demo li {
-  background:#ccc;
-  border:1px solid #fff;
-  color:#666; 
-  float:left;
-  font-weight:bold;
-  font-size:3em;
-  height:65px;
-  list-style:none;
-  padding:20px 0 0 0;
-  margin:0 10px 0 0;
-  text-align:center;
-  width:130px;
-}
-.carousel-demo-vertical li {
-  margin:0 0 10px 0;
-}
-#carousel-demo1 {
-height: 500px !important;
-}
