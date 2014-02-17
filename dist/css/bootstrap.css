@@ -5896,6 +5896,9 @@ white-space: nowrap;
   }
 }
 .footer{
+  position: relative;
+}
+.copyright{
   position: fixed;
 bottom: 0;
 text-align: center;
