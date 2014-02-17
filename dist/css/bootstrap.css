@@ -5885,3 +5885,8 @@ white-space: nowrap;
 #lk-gallery img{
   height:500px;
 }
+@media (max-height: 717px) {
+  body {
+    overflow-y: hidden;
+  }
+}
