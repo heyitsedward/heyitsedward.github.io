@@ -5895,12 +5895,12 @@ white-space: nowrap;
   height:400px;
   }
 }
-.footer{
-  position: relative;
-}
 .copyright{
   position: fixed;
 bottom: 0;
 text-align: center;
 width: 100%;
+}
+body{
+  margin-bottom: 100%;
 }
