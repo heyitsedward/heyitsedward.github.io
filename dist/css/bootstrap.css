@@ -5885,3 +5885,9 @@ white-space: nowrap;
 #lk-gallery img{
   height:500px;
 }
+@media (min-width: 768px) {
+  #lk-gallery img {
+    width:100%;
+    height: auto;
+  }
+}
