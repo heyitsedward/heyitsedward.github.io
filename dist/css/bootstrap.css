@@ -5876,3 +5876,12 @@ td.visible-print {
   right:0;
   text-align: center;
 }
+#lk-gallery{
+  width: 100%;
+height: 500px;
+margin: 10vh auto;
+white-space: nowrap;
+}
+#lk-gallery img{
+  height:500px;
+}
