@@ -5877,6 +5877,14 @@ td.visible-print {
   right:0;
   text-align: center;
 }
+.logo{
+  display:none;
+}
+@media (max-width:992px){
+  .logo{
+    display:block;
+  }
+}
 #lk-gallery{
   width: 100%;
 height: 500px;
@@ -5902,12 +5910,4 @@ bottom: 0;
 text-align: center;
 width: 100%;
 }
-}
-.logo{
-  display:none;
-}
-@media (max-width:992px){
-  .logo{
-    display:block;
-  }
-}
+
