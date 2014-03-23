@@ -6,7 +6,7 @@
 			});
 			
 			function buildCanvas() {
-				$('<a href="#" id="trigger">More +</a>').appendTo($container);
+				
 
 				$('#trigger').bind('click', function(e) {
 					e.preventDefault();
