@@ -5880,7 +5880,9 @@ td.visible-print {
 .logo{
   display:none;
 }
-
+.mobilenav{
+  display:none;
+}
 #lk-gallery{
   width: 100%;
 height: 500px;
@@ -5920,5 +5922,11 @@ width: 100%;
   .navbar{
     min-height: 10px;
     margin:10px 0 0 0;
+  }
+  .mobilenav{
+    display:block;
+  }
+  .nav{
+    display:none;
   }
 }
