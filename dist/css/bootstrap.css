@@ -5969,6 +5969,8 @@ width: 100%;
   }
   .mobilenav{
     display:block;
+    padding:0;
+    margin: 0;
   }
   .nav{
     display:none;
