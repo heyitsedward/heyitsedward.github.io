@@ -5921,7 +5921,7 @@ width: 100%;
   }
   .navbar{
     min-height: 10px;
-    margin:0;
+    margin:10px 0 0;
   }
   .mobilenav{
     display:block;
