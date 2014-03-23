@@ -5927,6 +5927,9 @@ td.visible-print {
 .mobilenav{
   display:none;
 }
+.mobilenav a{
+  font-size: 2em;
+}
 #lk-gallery{
   width: 100%;
 height: 500px;
