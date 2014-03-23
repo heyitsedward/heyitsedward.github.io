@@ -5885,9 +5885,15 @@ td.visible-print {
     display:block;
   }
   .centernav{
-  position: relative;
-  
-}
+  position: relative;  
+  }
+  #lk-gallery{    
+  margin: 10px auto;  
+  }
+  .navbar{
+    min-height: 10px;
+    margin:10px 0 0 0;
+  }
 }
 #lk-gallery{
   width: 100%;
