@@ -5921,7 +5921,7 @@ width: 100%;
   }
   .navbar{
     min-height: 10px;
-    margin:10px 0 0 0;
+    margin:0;
   }
   .mobilenav{
     display:block;
@@ -5929,4 +5929,8 @@ width: 100%;
   .nav{
     display:none;
   }
+  .nav-collapse li {
+  display: inline-block;
+  margin: .7em;
+}
 }
