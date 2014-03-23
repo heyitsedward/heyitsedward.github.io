@@ -157,7 +157,7 @@
           close: function(){}               // Function: Close callback
         };
 
-        // User defined options
+        //User defined options
         for (i in options) {
           this.options[i] = options[i];
         }
