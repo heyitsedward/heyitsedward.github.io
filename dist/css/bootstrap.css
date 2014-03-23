@@ -5929,6 +5929,9 @@ td.visible-print {
 }
 .mobilenav a{
   font-size: 2em;
+  color: #C4C4C4;
+text-transform: lowercase;
+font-family: 'always_togetherregular';
 }
 #lk-gallery{
   width: 100%;
