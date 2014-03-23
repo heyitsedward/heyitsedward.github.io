@@ -5884,6 +5884,10 @@ td.visible-print {
   .logo{
     display:block;
   }
+  .centernav{
+  position: relative;
+  
+}
 }
 #lk-gallery{
   width: 100%;
