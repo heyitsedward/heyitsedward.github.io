@@ -5905,6 +5905,7 @@ width: 100%;
 
 
 /*offcanvas-top-nav*/
+@media (max-width: 768px){  
 
 .offcanvas-top {
   position: relative;
@@ -5922,7 +5923,7 @@ width: 100%;
   width: 100%;
   position: absolute;
   bottom: 0;
-  padding: 1em 1em 2.5em;
+  padding: 1em 1em 3em;
   
 }
 .crumbs li a {
@@ -5940,4 +5941,5 @@ width: 100%;
   display: block;
   font-size: 1em; 
   padding: 0 1em 1em;
+}
 }
