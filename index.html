@@ -17,6 +17,8 @@
     <link href="starter-template.css" rel="stylesheet">   
     <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js?ver=1.3.2'></script>
     <script type='text/javascript' src='dist/js/jquery.mousewheel.js'></script>
+    <link rel="stylesheet" href="dist/css/responsive-nav.css">
+    <script src="dist/js/responsive-nav.js"></script>
 
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -38,15 +40,14 @@
   </head>
 
   <body>   
-    <div id="pattern" class="pattern">
-    <div class="offcanvas-top">
-      <div class="o-content">
-        <p>Here is more content. This could be related items, navigation or other content you feel is conducive to this type of treatment.</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean quis nisi et dui placerat ornare. Maecenas molestie lacus lobortis libero lacinia sed scelerisque lectus congue. Mauris dignissim nisi a ante laoreet et ullamcorper ligula ullamcorper. In hac habitasse platea dictumst. In nisi odio, tempor in viverra vitae, mollis ac tortor. Sed a rhoncus leo. Maecenas ac dui elit, tristique dapibus nisl. Suspendisse feugiat porta ligula, auctor posuere lorem vulputate et.</p>
-        </div>
-    </div>
-</div>  
- <a href="#" id="trigger">More +</a>
+    <nav class="nav-collapse">
+  <ul>
+    <li><a href="#">Home</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Projects</a></li>
+    <li><a href="#">Contact</a></li>
+  </ul>
+</nav>
 <div class="navbar navbar-inverse" role="navigation">
       <div class="container centernav">               
           <ul class="nav navbar-nav lk-hover">
@@ -73,6 +74,8 @@
       
     
     <script src="dist/js/bootstrap.min.js"></script>
-     <script type='text/javascript' src='dist/js/offcanvas-top.js'></script>
+     <script>
+  var nav = responsiveNav(".nav-collapse");
+</script>
   </body>
 </html>
