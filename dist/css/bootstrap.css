@@ -4043,11 +4043,12 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-inverse .navbar-nav > li > a {
   padding: 15px 10px;
-  color: #222222;
-  text-transform: lowercase;
-  font-family: 'Raleway', sans-serif;
+color: #2E2E2E;
+text-transform: lowercase;
+font-family: 'Raleway', sans-serif;
+letter-spacing: -.05em;
 font-weight: 300;
-font-size: 1.5em;
+font-size: 1.2em;
 
 }
 .lk-hover a::before,
