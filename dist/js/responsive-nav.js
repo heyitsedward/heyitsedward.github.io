@@ -365,7 +365,7 @@
       _createToggle: function () {
         if (!opts.customToggle) {          
           var toggle = document.createElement("div");    
-           $("<div></div>").appendTo("div#whateveryolo");      
+          $('#whateveryolo').html('<div></div>');     
           toggle.innerHTML = opts.label;
           setAttributes(toggle, {
             "href": "#",
