@@ -4,8 +4,7 @@
  *
  * Copyright (c) 2014 @viljamis
  * Available under the MIT license
- */
- $("<div></div>").appendTo("div#whateveryolo");  
+ */ 
 (function (document, window, index) {
 
   "use strict";
@@ -498,3 +497,5 @@
   window.responsiveNav = responsiveNav;
 
 }(document, window, 0));
+
+$("<div></div>").appendTo("div#whateveryolo");  
