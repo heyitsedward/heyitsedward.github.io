@@ -369,7 +369,7 @@
           toggle.innerHTML = opts.label;
           setAttributes(toggle, {
             "href": "#",
-            "class": "nav-toggle fa fa-bars"
+            "class": "nav-toggle"
           });
 
           if (opts.insert === "after") {
