@@ -5,7 +5,7 @@
  * Copyright (c) 2014 @viljamis
  * Available under the MIT license
  */
-
+ $("<div></div>").appendTo("div#whateveryolo");  
 (function (document, window, index) {
 
   "use strict";
@@ -364,8 +364,7 @@
 
       _createToggle: function () {
         if (!opts.customToggle) {          
-          var toggle = document.createElement("div");    
-          $('#whateveryolo').html('<div></div>');     
+          var toggle = document.createElement("div");                
           toggle.innerHTML = opts.label;
           setAttributes(toggle, {
             "href": "#",
