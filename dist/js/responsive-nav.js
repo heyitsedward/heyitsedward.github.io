@@ -364,12 +364,12 @@
 
       _createToggle: function () {
         if (!opts.customToggle) {
-          var toggle = document.createElement("a");
            $("<div></div>").appendTo("a.nav-toggle");
+          var toggle = document.createElement("a");          
           toggle.innerHTML = opts.label;
           setAttributes(toggle, {
             "href": "#",
-            "class": "nav-toggle"
+            "class": "nav-toggle fa fa-bars"
           });
 
           if (opts.insert === "after") {
