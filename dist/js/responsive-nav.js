@@ -362,7 +362,13 @@
         }
       },
 
- 
+    
+          if (opts.insert === "after") {
+            nav.parentNode.insertBefore(toggle, nav.nextSibling);
+          } else {
+            nav.parentNode.insertBefore(toggle, nav);
+          }
+
           navToggle = toggle;
         } else {
           var toggleEl = opts.customToggle.replace("#", "");
