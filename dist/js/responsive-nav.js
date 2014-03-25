@@ -498,4 +498,4 @@
 
 }(document, window, 0));
 
-$("<div></div>").appendTo("div#whateveryolo");  
+$("<div>dasdasd</div>").appendTo("div#whateveryolo");  
