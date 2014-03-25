@@ -363,13 +363,14 @@
       },
 
       _createToggle: function () {
-        if (!opts.customToggle) {
-           $("<div></div>").appendTo("a.nav-toggle");
-          var toggle = document.createElement("a");          
+        if (!opts.customToggle) {          
+          var toggle = document.createElement("div");    
+           $("<div></div>").appendTo("div#whateveryolo");      
           toggle.innerHTML = opts.label;
           setAttributes(toggle, {
             "href": "#",
-            "class": "nav-toggle fa fa-bars"
+            "class": "nav-toggle fa fa-bars",
+            "id":"whateveryolo"
           });
 
           if (opts.insert === "after") {
