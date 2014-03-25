@@ -362,36 +362,7 @@
         }
       },
 
-      _createToggle: function () {
-        if (!opts.customToggle) {
-          var toggle = document.createElement("i");
-          toggle.innerHTML = opts.label;
-          setAttributes(toggle, {
-            "href": "#",
-            "class": "nav-toggle fa fa-bars"
-          });
-
-          if (opts.insert === "after") {
-            nav.parentNode.insertBefore(toggle, nav.nextSibling);
-          } else {
-            nav.parentNode.insertBefore(toggle, nav);
-          }
-
-          navToggle = toggle;
-        } else {
-          var toggleEl = opts.customToggle.replace("#", "");
-
-          if (document.getElementById(toggleEl)) {
-            navToggle = document.getElementById(toggleEl);
-          } else if (document.querySelector(toggleEl)) {
-            navToggle = document.querySelector(toggleEl);
-          } else {
-            throw new Error("The custom nav toggle you are trying to select doesn't exist");
-          }
-        }
-      },
-
-      _closeOnNavClick: function () {
+            _closeOnNavClick: function () {
         if (opts.closeOnNavClick && "querySelectorAll" in document) {
           var links = nav.querySelectorAll("a"),
             self = this;
