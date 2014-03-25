@@ -4046,7 +4046,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 color: #2E2E2E;
 text-transform: lowercase;
 font-family: 'Raleway', sans-serif;
-letter-spacing: -.05em;
+letter-spacing: .05em;
 font-weight: 300;
 font-size: 1.2em;
 
