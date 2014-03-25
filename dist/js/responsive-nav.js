@@ -362,7 +362,15 @@
         }
       },
 
-    
+      _createToggle: function () {
+        if (!opts.customToggle) {
+          var toggle = document.createElement("i");
+          toggle.innerHTML = opts.label;
+          setAttributes(toggle, {
+            "href": "#",
+            "class": "nav-toggle fa fa-bars"
+          });
+
           if (opts.insert === "after") {
             nav.parentNode.insertBefore(toggle, nav.nextSibling);
           } else {
