@@ -363,12 +363,11 @@
 
       _createToggle: function () {
         if (!opts.customToggle) {          
-          var toggle = document.createElement("div");                
+          var toggle = document.createElement("a");                
           toggle.innerHTML = opts.label;
           setAttributes(toggle, {
             "href": "#",
-            "class": "nav-toggle fa fa-bars",
-            "id":"whateveryolo"
+            "class": "nav-toggle fa fa-bars"       
           });
 
           if (opts.insert === "after") {
@@ -498,4 +497,3 @@
 
 }(document, window, 0));
 
-$('#whateveryolo').append('<div id="innerDiv">hahanope</div>');
