@@ -5912,6 +5912,9 @@ td.visible-print {
   -o-user-select: none;
   user-select: none;
   float: left;
+  font-size: 2.5em;
+color: rgb(82, 82, 82);
+background: rgb(228, 228, 228);
 }
 
 @media screen and (min-width: 992px) {
