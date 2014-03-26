@@ -366,7 +366,7 @@
           var toggle = document.createElement("a");        
           setAttributes(toggle, {
             "href": "#",
-            "class": "nav-toggle fa fa-bars"       
+            "class": "nav-toggle lk-hamburger"       
           });
 
           if (opts.insert === "after") {
