@@ -363,11 +363,10 @@
 
       _createToggle: function () {
         if (!opts.customToggle) {          
-          var toggle = document.createElement("a");          
-          toggle.innerHTML = opts.label;
+          var toggle = document.createElement("a");        
           setAttributes(toggle, {
             "href": "#",
-            "class": "nav-toggle fa fa-bars fuckthis"       
+            "class": "nav-toggle fa fa-bars"       
           });
 
           if (opts.insert === "after") {
