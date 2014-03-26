@@ -5916,7 +5916,7 @@ td.visible-print {
   width: 25px;
   height:25px;
 color: rgb(82, 82, 82);
-background:transparent url(../images/hamburger1.png);
+background:transparent url(../images/hamburger3.png);
 }
 
 @media screen and (min-width: 992px) {
