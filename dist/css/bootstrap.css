@@ -5913,6 +5913,8 @@ td.visible-print {
   user-select: none;
   float: left;
   font-size: 2.5em;
+  width: 25px;
+  height:25px;
 color: rgb(82, 82, 82);
 background:transparent url(../images/hamburger1.png);
 }
