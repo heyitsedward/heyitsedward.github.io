@@ -5930,7 +5930,7 @@ td.visible-print {
   display:none;
 }
 .lk-hamburger:before{
-  content:'\U2630';
+  content:'\e800';
 }
 #lk-gallery{
   width: 100%;
