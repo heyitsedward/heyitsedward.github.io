@@ -5929,7 +5929,7 @@ td.visible-print {
 .mobilenav{
   display:none;
 }
-.lk-hamburger:before{
+.icon-menu:before{
   content:'\e800';
 }
 #lk-gallery{
