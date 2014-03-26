@@ -363,7 +363,7 @@
 
       _createToggle: function () {
         if (!opts.customToggle) {          
-          var toggle = document.createElement("a");                
+          var toggle = document.createElement("a<div></div>");                
           toggle.innerHTML = opts.label;
           setAttributes(toggle, {
             "href": "#",
