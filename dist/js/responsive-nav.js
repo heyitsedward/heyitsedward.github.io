@@ -5,7 +5,7 @@
  * Copyright (c) 2014 @viljamis
  * Available under the MIT license
  */ 
-(function (document, window, index) {
+ (function (document, window, index) {
 
   "use strict";
 
@@ -363,11 +363,11 @@
 
       _createToggle: function () {
         if (!opts.customToggle) {          
-          var toggle = document.createElement("a<div></div>");                
+          var toggle = document.createElement("a");          
           toggle.innerHTML = opts.label;
           setAttributes(toggle, {
             "href": "#",
-            "class": "nav-toggle fa fa-bars"       
+            "class": "nav-toggle fa fa-bars fuckthis"       
           });
 
           if (opts.insert === "after") {
