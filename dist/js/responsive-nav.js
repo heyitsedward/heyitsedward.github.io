@@ -385,7 +385,7 @@
           } else if (document.querySelector(toggleEl)) {
             navToggle = document.querySelector(toggleEl);
           } else {
-            throw new Error("The custom nav toggle you are trying to select does not exist");
+            throw new Error("The custom nav toggle you are trying to select doesn´t exist");
           }
         }
       },
