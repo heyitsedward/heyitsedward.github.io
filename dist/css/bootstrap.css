@@ -5911,8 +5911,7 @@ td.visible-print {
   -ms-user-select: none;
   -o-user-select: none;
   user-select: none;
-  float: left;
-  font-size: 2.5em;
+  float: left;  
   width: 27px;
   height:27px;
 color: rgb(82, 82, 82);
