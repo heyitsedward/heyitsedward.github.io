@@ -5988,8 +5988,6 @@ width: 100%;
 }
 .touch .mobilenav{
   display:block;
-  padding: 0;
-  margin: 0;
 }
 .no-touch .nav{
   display:block;
@@ -6007,7 +6005,15 @@ width: 100%;
   .navbar{    
     margin:0;
     min-height: 0;
-  }  
+  }
+  .mobilenav{
+    display:block;
+    padding:0;
+    margin: 0;
+  }
+  .nav{
+    display:none;
+  }
   .nav-collapse li {
   display: inline-block;
   margin: .7em;
