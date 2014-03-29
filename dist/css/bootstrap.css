@@ -5913,10 +5913,10 @@ td.visible-print {
   user-select: none;
   float: left;   
 color: rgb(82, 82, 82);
-font-size: 1.3em;
+font-size: 2em;
 }
 .icon-menu:before{
-  font-size: 160%;
+  font-size: 150%;
   margin-top: .25em;
 }
 @media screen and (min-width: 992px) {
