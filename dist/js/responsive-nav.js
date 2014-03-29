@@ -366,7 +366,7 @@
           var toggle = document.createElement("a");        
           setAttributes(toggle, {
             "href": "#",
-            "class": "nav-toggle"       
+            "class": "nav-toggle icon-menu"       
           });
 
           if (opts.insert === "after") {
