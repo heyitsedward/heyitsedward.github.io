@@ -5913,9 +5913,8 @@ td.visible-print {
   float: left;   
   color: #2e2e2e;
   font-size: 1.9em;
-  height: 1.55em;
-  background: rgb(233, 233, 233);
-  padding: .3em;
+  height: 1.1em;
+  margin: .2em 0 .4em 0;
  -webkit-transition: 0.3s, opacity 0.2s;
   -moz-transition: 0.3s, opacity 0.2s;
   transition: 0.3s, opacity 0.2s;
