@@ -4048,7 +4048,8 @@ text-transform: lowercase;
 letter-spacing: .05em;
 font-weight: 300;
 font-size: 1.2em;
-
+background: rgb(235, 235, 235);
+border-radius: 10%;
 }
 .lk-hover a::before,
 .lk-hover a::after {  
