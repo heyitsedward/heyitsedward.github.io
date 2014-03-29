@@ -5914,8 +5914,10 @@ td.visible-print {
   -o-user-select: none;
   user-select: none;
   float: left;   
-color: #2e2e2e;
-font-size: 1.9em;
+  color: #2e2e2e;
+  font-size: 1.9em;
+  height: 1.1em;
+  margin: .2em 0;
  -webkit-transition: 0.3s, opacity 0.2s;
   -moz-transition: 0.3s, opacity 0.2s;
   transition: 0.3s, opacity 0.2s;
@@ -5929,8 +5931,7 @@ font-size: 1.9em;
   transition: 0.3s, opacity 0.2s;
 }
 .icon-menu:before{
-  font-size: 150%;
-  margin-top: .25em;
+  font-size: 150%;  
 }
 @media screen and (min-width: 992px) {
   .js .nav-collapse {
@@ -5947,7 +5948,6 @@ font-size: 1.9em;
 .mobilenav{
   display:none;
 }
-
 .icon-menu:before{
   content:'\e800';
 }
