@@ -5990,7 +5990,7 @@ width: 100%;
   display:block;
 }
 .no-touch .nav{
-  display:block;
+  display:inline-block;
 }
 .touch .nav {
   display:none;
