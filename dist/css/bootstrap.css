@@ -5983,7 +5983,20 @@ bottom: 0em;
 text-align: center;
 width: 100%;
 }
-
+.no-touch .mobilenav{
+  display:none;
+}
+.touch .mobilenav{
+  display:block;
+  padding: 0;
+  margin: 0;
+}
+.no-touch .nav{
+  display:block;
+}
+.touch .nav {
+  display:none;
+}
 @media (max-width:992px){
   .logo{
     display:block;
@@ -5994,15 +6007,7 @@ width: 100%;
   .navbar{    
     margin:0;
     min-height: 0;
-  }
-  .mobilenav{
-    display:block;
-    padding:0;
-    margin: 0;
-  }
-  .nav{
-    display:none;
-  }
+  }  
   .nav-collapse li {
   display: inline-block;
   margin: .7em;
