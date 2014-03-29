@@ -5956,7 +5956,17 @@ white-space: nowrap;
 #lk-gallery img{
   height:500px;
 }
-
+.lk-gallery-touch{
+  display:none;
+}
+@media (max-height: 768px) {
+  #lk-gallery {
+    display:none;
+  }
+  .lk-gallery-touch{
+    display:block;
+  }
+}
 @media (max-height: 717px) {
   body {
     overflow-y: hidden;
