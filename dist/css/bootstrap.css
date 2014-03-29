@@ -5914,6 +5914,17 @@ td.visible-print {
   float: left;   
 color: rgb(82, 82, 82);
 font-size: 1.9em;
+ -webkit-transition: 0.3s, opacity 0.2s;
+  -moz-transition: 0.3s, opacity 0.2s;
+  transition: 0.3s, opacity 0.2s;
+}
+.nav-toggle:hover{
+  opacity: .8;
+  text-decoration: none;
+  color: rgb(82,82,82);
+  -webkit-transition: 0.3s, opacity 0.2s;
+  -moz-transition: 0.3s, opacity 0.2s;
+  transition: 0.3s, opacity 0.2s;
 }
 .icon-menu:before{
   font-size: 150%;
