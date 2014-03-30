@@ -8,18 +8,15 @@
     <meta name="author" content="">
     <link rel="shortcut icon" href="../../assets/ico/favicon.ico">
     <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
-
+    <link rel="stylesheet" type="text/css" href="dist/css/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="dist/css/style.css">
     <title>Laura Kok</title>
-<link href='http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900' rel='stylesheet' type='text/css'>
     <!-- Bootstrap core CSS -->
     <link href="dist/css/bootstrap.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <!-- jQuery library (served from Google) -->
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
-    <!-- bxSlider Javascript file -->
-    <link rel="stylesheet" href="dist/css/flexslider.css" type="text/css">   
-    <script src="dist/js/jquery.flexslider.js"></script>
+    <!-- jQuery library (served from Google) -->   
     <link href="starter-template.css" rel="stylesheet">    
     <script type='text/javascript' src='dist/js/jquery.mousewheel.js'></script>
     <link rel="stylesheet" href="dist/css/responsive-nav.css">
@@ -44,9 +41,9 @@
 
 });</script>
 <script type="text/javascript" charset="utf-8">
-  $(window).load(function() {
-    $('.flexslider').flexslider();
-  });
+  $('.slickslider').slick({
+  setting-name: setting-value
+});
 </script>
   </head>
 
@@ -93,19 +90,11 @@
     </div> <!-- .gallery -->  
 
     <div class="lk-gallery-touch">
-      <div class="flexslider">
-  <ul class="slides">
-    <li>
-      <img src="https://s3.amazonaws.com/ooomf-com-files/Yl43jGrjSwi4bKJBOjkI_NZ14%20(265%20of%20589).jpg" />
-    </li>
-    <li>
-      <img src="https://s3.amazonaws.com/ooomf-com-files/Yl43jGrjSwi4bKJBOjkI_NZ14%20(265%20of%20589).jpg" />
-    </li>
-    <li>
-      <img src="https://s3.amazonaws.com/ooomf-com-files/Yl43jGrjSwi4bKJBOjkI_NZ14%20(265%20of%20589).jpg" />
-    </li>
-  </ul>
-</div>
+      <div class="slickslider">
+        <div><img src="https://s3.amazonaws.com/ooomf-com-files/Yl43jGrjSwi4bKJBOjkI_NZ14%20(265%20of%20589).jpg" /></div>
+        <div><img src="https://s3.amazonaws.com/ooomf-com-files/Yl43jGrjSwi4bKJBOjkI_NZ14%20(265%20of%20589).jpg" /></div>
+        <div><img src="https://s3.amazonaws.com/ooomf-com-files/Yl43jGrjSwi4bKJBOjkI_NZ14%20(265%20of%20589).jpg" /></div>
+      </div>
     </div>  
     <section class="copyright">
       <p>Laura Kok © 2014</p>
@@ -114,6 +103,9 @@
       
     
     <script src="dist/js/bootstrap.min.js"></script>
+    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+    <script type="dist/js/javascript" src="js/slick.js"></script>
+    <script type="dist/js/javascript" src="js/scripts.js"></script>
      <script>
   var nav = responsiveNav(".nav-collapse");
 </script>
