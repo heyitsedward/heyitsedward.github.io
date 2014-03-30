@@ -6007,10 +6007,10 @@ width: 100%;
   margin: .7em;
 }
 }
-.touch .lk-gallery, .no-touch .lk-gallery-touch {
+.touch #lk-gallery, .no-touch .lk-gallery-touch {
   display:none;
 }
-.touch .lk-gallery-touch, .no-touch .lk-gallery{
+.touch .lk-gallery-touch, .no-touch #lk-gallery{
   display:block;
 }
  [class^="icon-"]:before, [class*=" icon-"]:before {
