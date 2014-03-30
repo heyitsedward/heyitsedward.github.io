@@ -18,9 +18,8 @@
     <!-- jQuery library (served from Google) -->
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
     <!-- bxSlider Javascript file -->
-    <script src="dist/js/jquery.bxslider.js"></script>
-    <!-- bxSlider CSS file -->
-    <link href="dist/css/jquery.bxslider.css" rel="stylesheet" />
+    <link rel="stylesheet" href="dist/css/flexslider.css" type="text/css">   
+    <script src="dist/js/jquery.flexslider.js"></script>
     <link href="starter-template.css" rel="stylesheet">    
     <script type='text/javascript' src='dist/js/jquery.mousewheel.js'></script>
     <link rel="stylesheet" href="dist/css/responsive-nav.css">
@@ -44,6 +43,11 @@
    });
 
 });</script>
+<script type="text/javascript" charset="utf-8">
+  $(window).load(function() {
+    $('.flexslider').flexslider();
+  });
+</script>
   </head>
 
   <body>   
@@ -89,12 +93,19 @@
     </div> <!-- .gallery -->  
 
     <div class="lk-gallery-touch">
-      <ul class="bxslider">
-        <li><img src="https://s3.amazonaws.com/ooomf-com-files/Yl43jGrjSwi4bKJBOjkI_NZ14%20(265%20of%20589).jpg" /></li>
-        <li><img src="https://s3.amazonaws.com/ooomf-com-files/Yl43jGrjSwi4bKJBOjkI_NZ14%20(265%20of%20589).jpg" /></li>
-        <li><img src="https://s3.amazonaws.com/ooomf-com-files/Yl43jGrjSwi4bKJBOjkI_NZ14%20(265%20of%20589).jpg" /></li>
-        <li><img src="https://s3.amazonaws.com/ooomf-com-files/Yl43jGrjSwi4bKJBOjkI_NZ14%20(265%20of%20589).jpg" /></li>
-      </ul>
+      <div class="flexslider">
+  <ul class="slides">
+    <li>
+      <img src="https://s3.amazonaws.com/ooomf-com-files/Yl43jGrjSwi4bKJBOjkI_NZ14%20(265%20of%20589).jpg" />
+    </li>
+    <li>
+      <img src="https://s3.amazonaws.com/ooomf-com-files/Yl43jGrjSwi4bKJBOjkI_NZ14%20(265%20of%20589).jpg" />
+    </li>
+    <li>
+      <img src="https://s3.amazonaws.com/ooomf-com-files/Yl43jGrjSwi4bKJBOjkI_NZ14%20(265%20of%20589).jpg" />
+    </li>
+  </ul>
+</div>
     </div>  
     <section class="copyright">
       <p>Laura Kok © 2014</p>
@@ -106,9 +117,6 @@
      <script>
   var nav = responsiveNav(".nav-collapse");
 </script>
-<script>$(document).ready(function(){
-  $('.bxslider').bxSlider();
-});</script>
 <script>
   if (Modernizr.touch) {   
     alert('Touch Screen');  

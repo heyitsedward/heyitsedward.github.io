@@ -5984,6 +5984,9 @@ bottom: 0em;
 text-align: center;
 width: 100%;
 }
+.copyright p{
+  margin: 0;
+}
 @media (max-width:992px){
   .logo{
     display:block;
